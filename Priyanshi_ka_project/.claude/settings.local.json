@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(lsof -nP -iTCP:5173 -sTCP:LISTEN)",
+      "Bash(lsof -nP -iTCP:5000 -sTCP:LISTEN)",
+      "Bash(lsof -nP -iTCP:5001 -sTCP:LISTEN)",
+      "Bash(npm run *)",
+      "Bash(brew services *)",
+      "Bash(openssl rand *)",
+      "Bash(npm install *)"
+    ]
+  }
+}
